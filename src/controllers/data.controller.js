@@ -32,7 +32,7 @@ export const getExampleData = async (req, res, next) => {
     return res.status(404).json({
       success: false,
       data: null,
-      message: `Sin data para el scope: ${scope}`
+      message: `Sin data para scope: ${scope}`
     });
 
   } catch (error) {
